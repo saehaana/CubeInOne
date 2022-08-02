@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ccc/AndroidStudioProjects/CubeInOne/app/src/main/res/layout/activity_main.xml" value="0.5" />
-        <entry key="..\:/Users/ccc/AndroidStudioProjects/CubeInOne/app/src/main/res/layout/welcome_screen.xml" value="0.25" />
+        <entry key="..\:/Users/ccc/AndroidStudioProjects/CubeInOne/app/src/main/res/layout/login_screen.xml" value="0.553125" />
+        <entry key="..\:/Users/ccc/AndroidStudioProjects/CubeInOne/app/src/main/res/layout/welcome_screen.xml" value="0.5" />
       </map>
     </option>
   </component>
