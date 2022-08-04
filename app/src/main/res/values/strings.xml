@@ -1,12 +1,13 @@
 <resources>
     <!-- variable = app_name -->
-    <!-- word that appears on screen = "CubeCam"-->
+    <!-- word that appears on screen = "CubeInOne"-->
     <string name="app_name">CubeInOne</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
 
+    <string name="temp">Temp</string>
 
 
 </resources>
