@@ -3,6 +3,7 @@ package com.example.cubeinone
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.MotionEvent
 import android.view.View
 import android.widget.Button
@@ -25,22 +26,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun handleTouch(m: MotionEvent){
-        val pointerCount = m.pointerCount //identifies pointers active on the view
-
-        for(i in 0 until pointerCount){
-            val x = m.getX(i)
-            val y = m.getY(i)
-            val id = m.getPointerId(i)
-            val action = m.actionMasked
-            val actionIndex = m.actionIndex
-            val actionString: String
-
-            when(action){
-                MotionEvent.ACTION_BUTTON_RELEASE -> actionString = "BTN RELEASE"
-                else -> actionString = ""
-            }
-
-
+        when(m.actionMasked){
+            MotionEvent.ACTION_DOWN -> Log.i("TouchEvents","Action Down")
+            MotionEvent.ACTION_UP -> Log.i("TouchEvents","Action Up")
         }
     }
 }
