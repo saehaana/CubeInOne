@@ -1,2 +1,2 @@
 # CubeInOne
-Android app that auto records every timed solve
+Android app that records each scramble and auto uploads to the cloud so users can vod review their solves
