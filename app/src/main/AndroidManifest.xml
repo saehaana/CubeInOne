@@ -4,6 +4,7 @@
     package="com.example.cubeinone">
 
     <!-- <uses-feature>           - advertise that app depends on having a camera
+         .any                     - means it can be front or back camera
          android:required="false" - app uses but doesn't need camera to function, allows devices without camera to download the app -->
     <uses-feature android:name="android.hardware.camera.any" />
     <uses-permission android:name="android.permission.CAMERA" />
